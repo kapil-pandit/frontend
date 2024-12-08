@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+      "jsx": "react-jsx", // Use "react-jsx" for React 17+ or "react" for older versions
+      "allowJs": true, // Allow JavaScript files if necessary
+      "esModuleInterop": true, // For compatibility with ES modules
+      "moduleResolution": "node",
+      "target": "ESNext", // Adjust according to your project needs
+      "module": "ESNext", // Adjust to "CommonJS" if using Node.js
+      "strict": true, // Enables strict type checking
+      "baseUrl": "./src", // Optional: Makes imports cleaner
+      "paths": {
+        "@/*": ["*"] // Optional: For absolute imports
+      }
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules"]
+  }
+  
