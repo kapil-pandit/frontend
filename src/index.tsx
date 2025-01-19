@@ -5,6 +5,7 @@ import { store } from './app/store';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import './index.css';
+let b =0;
 
 const container = document.getElementById('root');
 if (container) {
